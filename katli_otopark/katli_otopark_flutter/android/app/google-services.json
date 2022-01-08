@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43516163934",
+    "project_id": "otopark-3fee7",
+    "storage_bucket": "otopark-3fee7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43516163934:android:5d6767698cbdc427f4c1cf",
+        "android_client_info": {
+          "package_name": "com.example.katli_otopark_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43516163934-mnhf6impv8rutfjosu14bd7nsaniape1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyBcNYMrHGMmvHiflhYLfpuiFt12I8gqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43516163934-mnhf6impv8rutfjosu14bd7nsaniape1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
