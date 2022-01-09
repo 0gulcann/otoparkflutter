@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:katli_otopark_flutter/models/arabagirisi.dart';
-import 'package:katli_otopark_flutter/ui/theme.dart';
+import 'package:katliotopark/models/arabagirisi.dart';
+import 'package:katliotopark/ui/theme.dart';
 
 class TaskTile extends StatelessWidget {
   final Task? task;
@@ -11,24 +11,21 @@ class TaskTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding:
-      EdgeInsets.symmetric(horizontal: 20),
+      padding: EdgeInsets.symmetric(horizontal: 20),
       width: MediaQuery.of(context).size.width,
       margin: EdgeInsets.only(bottom: 12),
       child: Container(
         padding: EdgeInsets.all(16),
         //  width: SizeConfig.screenWidth * 0.78,
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(16),
-          color: Colors.grey[600]
-        ),
+            borderRadius: BorderRadius.circular(16), color: Colors.grey[600]),
         child: Row(children: [
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  task?.plaka??"",
+                  task?.plaka ?? "",
                   style: GoogleFonts.lato(
                     textStyle: TextStyle(
                         fontSize: 16,
@@ -52,14 +49,14 @@ class TaskTile extends StatelessWidget {
                       "${task!.startTime} - ${task!.endTime}",
                       style: GoogleFonts.lato(
                         textStyle:
-                        TextStyle(fontSize: 13, color: Colors.grey[100]),
+                            TextStyle(fontSize: 13, color: Colors.grey[100]),
                       ),
                     ),
                   ],
                 ),
                 SizedBox(height: 12),
                 Text(
-                  task?.marka??"",
+                  task?.marka ?? "",
                   style: GoogleFonts.lato(
                     textStyle: TextStyle(fontSize: 15, color: Colors.grey[100]),
                   ),
@@ -89,5 +86,4 @@ class TaskTile extends StatelessWidget {
       ),
     );
   }
-
 }
