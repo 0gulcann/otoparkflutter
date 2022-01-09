@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "43516163934",
-    "project_id": "otopark-3fee7",
-    "storage_bucket": "otopark-3fee7.appspot.com"
+    "project_number": "706006703060",
+    "project_id": "otopark-84b2a",
+    "storage_bucket": "otopark-84b2a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:43516163934:android:5d6767698cbdc427f4c1cf",
+        "mobilesdk_app_id": "1:706006703060:android:6afc689c1fb37ade415441",
         "android_client_info": {
-          "package_name": "com.example.katli_otopark_flutter"
+          "package_name": "com.example.katliotopark"
         }
       },
       "oauth_client": [
         {
-          "client_id": "43516163934-mnhf6impv8rutfjosu14bd7nsaniape1.apps.googleusercontent.com",
+          "client_id": "706006703060-dncjpfqjqro4201vu1tnu8i7g84uud6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.katliotopark",
+            "certificate_hash": "85677bdab7839cd887739eb915ec79973ecd4268"
+          }
+        },
+        {
+          "client_id": "706006703060-t19pamkbfv2d27mroma90v6f7kcfi145.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCyBcNYMrHGMmvHiflhYLfpuiFt12I8gqI"
+          "current_key": "AIzaSyBMrnp9Wd6EpDNUvrOXoeJOrpObOg_eLsA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "43516163934-mnhf6impv8rutfjosu14bd7nsaniape1.apps.googleusercontent.com",
+              "client_id": "706006703060-t19pamkbfv2d27mroma90v6f7kcfi145.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
